@@ -1,0 +1,118 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #AFA0D4;
+    text-align: center;
+    align-content: center;
+    height: 200px;
+    width: 100%;
+    clear: both;
+}
+#topS{
+    background-color: #C9A0D4;
+    height: 50px;
+    width: 100%;
+
+    position: sticky;
+    top: 0;
+}
+#topS>*{
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+#topS>div{
+    padding: 15px;
+    margin: 0px;
+}
+aside{
+    background-color: #AFA0D4;
+    height: 2500px;
+    width: 5%;
+    float: left;
+}
+main{
+    background-color: #c8d2ce;
+    height: 2500px;
+    width: 80%;
+    float: left;
+}
+.product{
+    border: 5px solid #A0ABD4;
+    background-color: rgba(160, 171, 212, 0.5);
+    height: 250px;
+    clear: both;
+}
+.product>*{
+    float: left;
+}
+.product>img{
+    height: 240px;
+    margin: 5px;
+}
+.product>div{
+    height: 250px;
+    padding: 20px 10px 0px 10px;
+    font-size: 25px;
+}
+.product>div>h3{
+    margin: auto auto 0px auto;
+}
+.product>div>h5{
+    margin: 0px;
+}
+.product>div>input{
+    clear: both;
+}
+.play{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    background-image: url("Images/OptionImages/play.png");
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.play.loading{
+    background-image: unset;
+}
+.play.playing{
+    background-image: url("Images/OptionImages/pause.png");
+}
+nav{
+    background-color: #AFA0D4;
+    height: 2500px;
+    width: 15%;
+    float: left;
+}
+#downS{
+    background-color: #AFA0D4;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    clear: both;
+}
+footer{
+    background-color: #C9A0D4;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
+.login{
+    background-color: rgba(160, 171, 212, 0.5);
+    height: 500px;
+    width: 50%;
+    margin: 11% 25% 0% 25%;
+    border: 5px solid #A0ABD4;
+    border-radius: 100px;
+    text-align: center;
+    align-content: center;
+}
+.login>*{
+    margin: 0% 10% 1% 10%;
+}
+.login>h1{
+    margin-bottom: 50px;
+}
